@@ -17,7 +17,7 @@ const resources = () => {
 
       <Layout>
         <div className="overflow-hidden flex gap-16 flex-row justify-center mx-auto px-6 sm:px-16 sm:py-16 py-6 max-w-[1080px] text-[14px] sm:text-[16px] text-center leading-8 font-OpenSans ">
-          <div className="my-16 ">
+          <div className="my-16 sm:block hidden">
             <ul className="list-none text-start uppercase text-[#bbbbbb]">
               <h1 className="text-[24px] mb-2 normal-case text-[#a06837d9]  font-semibold">
                 Spirituality

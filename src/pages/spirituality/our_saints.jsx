@@ -19,7 +19,7 @@ const our_saints = () => {
 
       <Layout>
         <div className="overflow-hidden flex gap-16 flex-row justify-center mx-auto px-6 sm:px-16 sm:py-16 py-6 max-w-[1080px] text-[14px] sm:text-[16px] text-center leading-8 font-OpenSans ">
-          <div className="my-16 ">
+          <div className="my-16  sm:block hidden">
             <ul className="list-none text-start uppercase text-[#bbbbbb]">
               <h1 className="text-[24px] mb-2 normal-case text-[#a06837d9] font-semibold">
                 Spirituality
@@ -77,25 +77,26 @@ const our_saints = () => {
               alt="logo"
               width={250}
               height={200}
-              className="object-contain float-left mr-3 my-3"
+              className="object-contain mx-auto  sm:mx-0 float-none sm:float-left sm:mr-3 my-3"
             />
 
             <p className="text-justify font-normal indent-6 ">
-              The foundation and characteristic of Augustinian life is life in
-              common, in which friars seek to construct a path that is directed
-              to God in service to others. We do this not only through the
-              sharing of ideals and values, but also in the communion of all our
-              material and spiritual goods. In this way we strive to grow
-              through the gift of God's grace, and so give witness to the
-              mystery of the Trinity and of the Church, anticipating now on
-              earth the reality we hope for in the future in the Father’s
-              house.ommon, in which friars seek to construct a path that is
-              directed to God in service to others. We do this not only through
-              the sharing of ideals and values, but also in the communion of all
-              our material and spiritual goods. In this way we strive to grow
-              through the gift of God's grace, and so give witness to the
-              mystery of the Trinity and of the Church, anticipating now on
-              earth the reality we hope for in the future in the Father’s house.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac
+              lacinia dolor. Sed faucibus placerat ante id tincidunt. Nam porta
+              lorem sit amet cursus tempor. Morbi efficitur odio at tortor
+              volutpat, egestas placerat odio ullamcorper. Donec viverra tortor
+              non leo posuere auctor. Nulla varius, urna eget volutpat laoreet,
+              velit elit pharetra enim, vitae mollis odio velit sed lacus.
+              Phasellus pellentesque pulvinar facilisis. Cras egestas, massa ac
+              maximus gravida, risus dui efficitur diam, sed aliquet odio risus
+              quis tortor. Donec eros sem, tincidunt non venenatis vel, lobortis
+              vitae ipsum. Sed et dui magna. Donec tincidunt turpis ac felis
+              volutpat, non facilisis massa iaculis. Nulla maximus leo at nibh
+              posuere, ac maximus metus tristique. Duis sollicitudin quis magna
+              ac tempus. Fusce ac finibus lectus. Duis vel eros sit amet erat
+              congue ullamcorper. Curabitur sed tristique augue. Mauris molestie
+              semper lectus vitae ultrices. Curabitur justo sapien, tempus nec
+              aliquam et, aliquam nec arcu.
             </p>
           </div>
         </div>
