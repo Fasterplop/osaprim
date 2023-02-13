@@ -17,15 +17,16 @@ export default function Home() {
 
       <Layout>
         <div className="overflow-hidden flex flex-col justify-center items-center px-6 sm:px-16 py-6">
-          <div>
+          <div className="">
             <Image
               src={child_jesus}
               alt="Divine Child Jesus"
               height={500}
-              className="object-contain"
+              className="object-contain "
               priority
             />
           </div>
+
           <div className="max-w-[1080px] text-[14px] sm:text-[16px] text-center leading-8 py-3 font-OpenSans ">
             <h2 className="  text-[#a06837d9] font-semibold">
               This image resides in the Monk’s Oratory of Mary our Mother,

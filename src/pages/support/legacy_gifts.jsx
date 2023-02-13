@@ -14,7 +14,11 @@ const legacy_gifts = () => {
         <meta name="author" content="Osaprim" />
       </Head>
 
-      <Layout>Testing</Layout>
+      <Layout>
+        <div className=" m-16 text-center h-[600px] text-[16px] font-bold font-OpenSans">
+          <h1>Our page is temporary unavailable</h1>
+        </div>
+      </Layout>
     </>
   );
 };

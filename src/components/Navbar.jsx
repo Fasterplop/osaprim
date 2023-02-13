@@ -12,7 +12,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" sticky top-0 z-auto bg-[#A020F0] overflow-hidden">
+    // z-auto
+    <nav className=" sticky top-0 z-auto  bg-[#A020F0] overflow-hidden">
       <div className=" max-w-6xl mx-auto ">
         <div className="flex sm:justify-center justify-end">
           <div className="flex">
@@ -36,7 +37,7 @@ const Navbar = () => {
 
                 <DropdownMenu.Portal>
                   <DropdownMenu.Content
-                    className="DropdownMenuContent"
+                    className="DropdownMenuContent "
                     align="start"
                     alignOffset={-5}
                     sideOffset={10}
@@ -202,7 +203,7 @@ const Navbar = () => {
                 </DropdownMenu.Portal>
               </DropdownMenu.Root>
 
-              <Link href="">
+              <Link href="/donate">
                 <div className="hover:bg-[#bc8dfc] bg-white hover:text-white  hover:scale-105 text-[16px] font-OpenSans text-[#8D39FA] p-3 text-center  rounded-full">
                   Donate
                 </div>
@@ -393,8 +394,8 @@ const Navbar = () => {
             </DropdownMenu.Portal>
           </DropdownMenu.Root>
 
-          <Link href="/">
-            <button className="hover:bg-[#bc8dfc] mx-2 mb-3 p-3 hover:text-white  bg-white hover:scale-105 text-[14px] font-OpenSans text-[#8D39FA] text-center  rounded-full w-fit">
+          <Link href="/donate">
+            <button className="hover:bg-[#bc8dfc] my-2 mx-2 mb-3 p-2 hover:text-white  bg-white hover:scale-105 text-[14px] font-OpenSans text-[#8D39FA] text-center  rounded-full w-fit">
               Donate
             </button>
           </Link>
