@@ -41,7 +41,7 @@ const becoming_a_monk = () => {
               </li>
               <li>
                 We find that good candidates are usually between the ages of 25
-                and 40.
+                and 50.
               </li>
             </ul>
 
@@ -83,8 +83,8 @@ const becoming_a_monk = () => {
               <br /> Mother of the Good Shepherd Monastery <br />
               2075 Mercers Fernery <br />
               Road DeLand, Florida 32720 <br /> United States of America <br />{" "}
-              Phone: 386-736-4321
-              <br /> E-Mail: monks@augustinianmonks.com
+              Phone: <a href="tel:5416928627">(541) 692-8627 </a>
+              <br /> E-Mail: monks@osaprim.org
             </p>
           </div>
         </div>

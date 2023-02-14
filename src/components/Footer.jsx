@@ -17,10 +17,16 @@ const Footer = () => {
           />
         </div>
         <div className="text-[#1e140a] flex flex-col sm:text-start text-center">
-          <p>Bro. Nicholas Drouin. Osaprim</p>
-          <p>...</p>
-          <p>...</p>
-          <p className="underline cursor-pointer">Visit the winery website</p>
+          <p>Br. Nicholas Drouin, O.S.A.Prim.</p>
+          <a className="underline text-[#0000EE]" href="tel:5416928627">
+            (541) 692-8627{" "}
+          </a>
+          <a className="underline text-[#0000EE]" href="tel:3863496277">
+            (386) 349-6277{" "}
+          </a>
+          <a className="underline text-[#0000EE]" href="tel:3863272772">
+            (386) 327-2772{" "}
+          </a>
         </div>
       </div>
 
