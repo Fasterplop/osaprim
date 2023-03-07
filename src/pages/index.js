@@ -1,7 +1,26 @@
 import Head from "next/head";
 import Image from "next/image";
 import Layout from "@/layouts/Layout";
-import { child_jesus } from "@/images";
+import {
+  child_jesus,
+  first,
+  one,
+  two,
+  three,
+  four,
+  five,
+  six,
+  seven,
+  eight,
+  nine,
+  ten,
+  eleven,
+  twelve,
+  thirteen,
+} from "@/images";
+import React from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 export default function Home() {
   return (
@@ -16,6 +35,53 @@ export default function Home() {
       </Head>
 
       <Layout>
+        <div className=" xl:w-[70%] w-[100%] mx-auto">
+          <Carousel autoPlay>
+            <div>
+              <Image src={first} alt="image 1" className=" max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={one} alt="image 2" className=" max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={two} alt="image 3" className=" max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={three} alt="image 4" className="max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={four} alt="image 5" className="max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={five} alt="image 6" className="max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={six} alt="image 7" className="max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={seven} alt="image 8" className="max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={eight} alt="image 9" className="max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={nine} alt="image 10" className="max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={ten} alt="image 11" className="max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={eleven} alt="image 12" className="max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={twelve} alt="image 13" className="max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={thirteen} alt="image 14" className="max-h-[500px]" />
+            </div>
+          </Carousel>
+        </div>
+
         <div className="overflow-hidden flex flex-col justify-center items-center px-6 sm:px-16 py-6">
           <div className="">
             <Image
