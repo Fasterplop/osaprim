@@ -17,7 +17,7 @@ const Footer = () => {
           />
         </div>
         <div className="text-[#1e140a] flex flex-col sm:text-start text-center">
-          <p>Br. Nicholas Drouin, O.S.A.Prim.</p>
+          <p>Br. Nicholas of the Immaculate Heart, O.S.A.Prim.</p>
           <a className="underline text-[#0000EE]" href="tel:5416928627">
             (541) 692-8627{" "}
           </a>

@@ -38,7 +38,12 @@ export default function Home() {
         <div className=" xl:w-[70%] w-[100%] mx-auto">
           <Carousel autoPlay>
             <div>
-              <Image src={first} alt="image 1" className=" max-h-[500px]" />
+              <Image
+                src={first}
+                alt="image 1"
+                priority
+                className=" max-h-[500px]"
+              />
             </div>
             <div>
               <Image src={one} alt="image 2" className=" max-h-[500px]" />
