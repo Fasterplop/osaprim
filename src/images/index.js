@@ -15,6 +15,7 @@ import ten from "./ten.png";
 import eleven from "./eleven.png";
 import twelve from "./twelve.png";
 import thirteen from "./thirteen.png";
+import saints from "./saints.jpg";
 
 export {
   header,
@@ -34,4 +35,5 @@ export {
   eleven,
   twelve,
   thirteen,
+  saints,
 };

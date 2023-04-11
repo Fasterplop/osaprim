@@ -1,7 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FaWhatsapp } from "react-icons/fa";
+import {
+  FaWhatsapp,
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
 import { footer_img } from "@/images";
 
 const Footer = () => {
@@ -27,6 +33,20 @@ const Footer = () => {
           <a className="underline text-[#0000EE]" href="tel:3863272772">
             (386) 327-2772{" "}
           </a>
+          <div className="flex flex-row text-[24px] gap-2 my-2  ">
+            <a target="_blank" href="https://www.facebook.com/OSAPrim">
+              <FaFacebook />
+            </a>
+
+            <FaInstagram />
+            <FaTwitter />
+            <a
+              target="_blank"
+              href="https://www.youtube.com/channel/UCiAcQYge-yTtJxqGWEtEJ2A"
+            >
+              <FaYoutube />
+            </a>
+          </div>
         </div>
       </div>
 

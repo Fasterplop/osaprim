@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,15 +9,15 @@ body {
 }
 
 .menu_list {
-  @apply hover:border-2 hover:border-black hover:ring-1 hover:ring-white hover:rounded-md  px-2 bg-[#A020F0] font-OpenSans py-2 text-[#fff] sm:text-[16px] text-[14px] cursor-pointer;
+  @apply hover:border-2 hover:border-black hover:ring-1 hover:ring-white hover:rounded-md  px-2 bg-[#012060] font-OpenSans py-2 text-[#fff] sm:text-[16px] text-[14px] cursor-pointer;
 }
 
 .sub_menu_list {
-  @apply py-2  bg-[#A020F0] px-3  list-none font-OpenSans text-[#fff] sm:text-[16px] z-auto;
+  @apply py-2  bg-[#012060] px-3  list-none font-OpenSans text-[#fff] sm:text-[16px] z-auto;
 }
 
 .menu_list_phone {
-  @apply py-2  bg-[#A020F0] px-3  list-none font-OpenSans text-[#fff] sm:text-[16px];
+  @apply py-2  bg-[#012060] px-3  list-none font-OpenSans text-[#fff] sm:text-[16px];
 }
 
 .DropdownMenuContent {

@@ -54,14 +54,6 @@ const our_charism = () => {
                   Resources
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/spirituality/secular_fraternities"
-                  className="hover:text-[#a06837d9] whitespace-nowrap"
-                >
-                  Secular Fraternities
-                </Link>
-              </li>
             </ul>
           </div>
 

@@ -35,14 +35,14 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <div className=" xl:w-[70%] w-[100%] mx-auto">
-          <Carousel autoPlay>
+        <div className=" xl:w-[70%] w-[100%] mx-auto -z-10">
+          <Carousel autoPlay showThumbs={false}>
             <div>
               <Image
                 src={first}
                 alt="image 1"
                 priority
-                className=" max-h-[500px]"
+                className=" max-h-[500px] -z-10"
               />
             </div>
             <div>
