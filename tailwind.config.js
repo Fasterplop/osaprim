@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         OpenSans: ["Open Sans", "sans-serif"],
-        AlfaFont: ["Alfa Slab One", "cursive"],
+        AlfaFont: ["Anton", "sans-serif"],
       },
     },
   },

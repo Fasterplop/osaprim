@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     // z-auto to work on mobile
-    <nav className=" sticky top-0 z-auto sm:z-50  bg-[#012060] overflow-hidden">
+    <nav className=" uppercase sticky top-0 z-auto sm:z-50  bg-[#012060] overflow-hidden">
       <div className=" max-w-6xl mx-auto ">
         <div className="flex sm:justify-center justify-end">
           <div className="flex">
@@ -26,7 +26,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="menu_list">
-                <Link href="/becoming_a_monk">Becoming a Monk</Link>
+                <Link href="/becoming_a_monk">Vocation</Link>
               </li>
 
               <DropdownMenu.Root>
@@ -227,7 +227,7 @@ const Navbar = () => {
           </li>
 
           <li className="menu_list_phone">
-            <Link href="/becoming_a_monk">Becoming a Monk</Link>
+            <Link href="/becoming_a_monk">Vocation</Link>
           </li>
 
           <DropdownMenu.Root dir="ltr">
