@@ -13,13 +13,13 @@ const Navbar = () => {
 
   return (
     // z-auto to work on mobile
-    <nav className=" uppercase sticky top-0 z-auto sm:z-50  bg-[#012060] overflow-hidden">
-      <div className=" max-w-6xl mx-auto ">
-        <div className="flex sm:justify-center justify-end">
-          <div className="flex">
+    <nav className=" capitalize font-bold sticky top-0 z-auto sm:z-50  bg-[#012060] overflow-hidden">
+      <div className=" max-w-6xl sm:w-[70%] mx-auto ">
+        <div className="flex sm:justify-center justify-end ">
+          <div className="flex w-full">
             {/* primary menu */}
 
-            <ul className="hidden sm:flex items-center space-x-3 sm:py-2">
+            <ul className="hidden sm:flex justify-between items-center sm:py-2 w-full">
               <li className="menu_list">
                 <Link href="/">
                   <AiOutlineHome className="text-[26px] text-[#01AAE5]" />

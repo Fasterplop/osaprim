@@ -35,7 +35,8 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <div className=" xl:w-[70%] w-[100%] mx-auto -z-10">
+        {/* <div className=" xl:w-[70%] w-[100%] mx-auto -z-10"> */}
+        <div className=" w-[70%] mx-auto -z-10 max-w-6xl mt-1">
           <Carousel autoPlay showThumbs={false}>
             <div>
               <Image
