@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     // z-auto to work on mobile
-    <nav className=" capitalize font-bold sticky top-0 z-auto sm:z-50  bg-[#012060] overflow-hidden">
+    <nav className=" uppercase font-bold sticky top-0 z-auto sm:z-50  bg-[#012060] overflow-hidden">
       <div className=" max-w-6xl sm:w-[70%] mx-auto ">
         <div className="flex sm:justify-center justify-end ">
           <div className="flex w-full">
@@ -21,9 +21,7 @@ const Navbar = () => {
 
             <ul className="hidden sm:flex justify-between items-center sm:py-2 w-full">
               <li className="menu_list">
-                <Link href="/">
-                  <AiOutlineHome className="text-[26px] text-[#01AAE5]" />
-                </Link>
+                <Link href="/">Home</Link>
               </li>
               <li className="menu_list">
                 <Link href="/becoming_a_monk">Vocation</Link>
