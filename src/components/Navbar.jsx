@@ -156,6 +156,10 @@ const Navbar = () => {
                 </DropdownMenu.Portal>
               </DropdownMenu.Root>
 
+              <li className="menu_list">
+                <Link href="/contact_us">Contact US</Link>
+              </li>
+
               <DropdownMenu.Root>
                 <DropdownMenu.Trigger asChild>
                   <li className="menu_list flex flex-row">
@@ -345,6 +349,10 @@ const Navbar = () => {
               </DropdownMenu.Content>
             </DropdownMenu.Portal>
           </DropdownMenu.Root>
+
+          <li className="menu_list_phone">
+            <Link href="/contact_us">Contact Us</Link>
+          </li>
 
           <DropdownMenu.Root>
             <DropdownMenu.Trigger asChild>
