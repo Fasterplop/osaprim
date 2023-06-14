@@ -16,6 +16,11 @@ import eleven from "./eleven.png";
 import twelve from "./twelve.png";
 import thirteen from "./thirteen.png";
 import saints from "./saints.jpg";
+import god1 from "./god1.jpg";
+import god2 from "./god2.jpg";
+import god3 from "./god3.jpg";
+import god4 from "./god4.jpg";
+import god5 from "./god5.jpg";
 
 export {
   header,
@@ -36,4 +41,9 @@ export {
   twelve,
   thirteen,
   saints,
+  god1,
+  god2,
+  god3,
+  god4,
+  god5,
 };

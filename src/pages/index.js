@@ -17,6 +17,11 @@ import {
   eleven,
   twelve,
   thirteen,
+  god1,
+  god2,
+  god3,
+  god4,
+  god5,
 } from "@/images";
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -109,50 +114,23 @@ export default function Home() {
           <Carousel autoPlay showThumbs={false}>
             <div>
               <Image
-                src={first}
+                src={god1}
                 alt="image 1"
                 priority
                 className=" max-h-[500px] -z-10"
               />
             </div>
             <div>
-              <Image src={one} alt="image 2" className=" max-h-[500px]" />
+              <Image src={god2} alt="image 2" className=" max-h-[500px]" />
             </div>
             <div>
-              <Image src={two} alt="image 3" className=" max-h-[500px]" />
+              <Image src={god3} alt="image 3" className=" max-h-[500px]" />
             </div>
             <div>
-              <Image src={three} alt="image 4" className="max-h-[500px]" />
+              <Image src={god4} alt="image 4" className="max-h-[500px]" />
             </div>
             <div>
-              <Image src={four} alt="image 5" className="max-h-[500px]" />
-            </div>
-            <div>
-              <Image src={five} alt="image 6" className="max-h-[500px]" />
-            </div>
-            <div>
-              <Image src={six} alt="image 7" className="max-h-[500px]" />
-            </div>
-            <div>
-              <Image src={seven} alt="image 8" className="max-h-[500px]" />
-            </div>
-            <div>
-              <Image src={eight} alt="image 9" className="max-h-[500px]" />
-            </div>
-            <div>
-              <Image src={nine} alt="image 10" className="max-h-[500px]" />
-            </div>
-            <div>
-              <Image src={ten} alt="image 11" className="max-h-[500px]" />
-            </div>
-            <div>
-              <Image src={eleven} alt="image 12" className="max-h-[500px]" />
-            </div>
-            <div>
-              <Image src={twelve} alt="image 13" className="max-h-[500px]" />
-            </div>
-            <div>
-              <Image src={thirteen} alt="image 14" className="max-h-[500px]" />
+              <Image src={god5} alt="image 5" className="max-h-[500px]" />
             </div>
           </Carousel>
         </div>
