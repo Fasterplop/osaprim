@@ -46,49 +46,64 @@ export default function Home() {
             <div>
               <Image
                 src={first}
-                alt="image 1"
+                alt="image"
                 priority
                 className=" max-h-[500px] -z-10"
               />
             </div>
             <div>
-              <Image src={one} alt="image 2" className=" max-h-[500px]" />
+              <Image src={one} alt="image" className=" max-h-[500px]" />
             </div>
             <div>
-              <Image src={two} alt="image 3" className=" max-h-[500px]" />
+              <Image src={two} alt="image" className=" max-h-[500px]" />
             </div>
             <div>
-              <Image src={three} alt="image 4" className="max-h-[500px]" />
+              <Image src={three} alt="image" className="max-h-[500px]" />
             </div>
             <div>
-              <Image src={four} alt="image 5" className="max-h-[500px]" />
+              <Image src={four} alt="image" className="max-h-[500px]" />
             </div>
             <div>
-              <Image src={five} alt="image 6" className="max-h-[500px]" />
+              <Image src={five} alt="image" className="max-h-[500px]" />
             </div>
             <div>
-              <Image src={six} alt="image 7" className="max-h-[500px]" />
+              <Image src={six} alt="image" className="max-h-[500px]" />
             </div>
             <div>
-              <Image src={seven} alt="image 8" className="max-h-[500px]" />
+              <Image src={seven} alt="image" className="max-h-[500px]" />
             </div>
             <div>
-              <Image src={eight} alt="image 9" className="max-h-[500px]" />
+              <Image src={eight} alt="image" className="max-h-[500px]" />
             </div>
             <div>
-              <Image src={nine} alt="image 10" className="max-h-[500px]" />
+              <Image src={nine} alt="image" className="max-h-[500px]" />
             </div>
             <div>
-              <Image src={ten} alt="image 11" className="max-h-[500px]" />
+              <Image src={ten} alt="image" className="max-h-[500px]" />
             </div>
             <div>
-              <Image src={eleven} alt="image 12" className="max-h-[500px]" />
+              <Image src={eleven} alt="image" className="max-h-[500px]" />
             </div>
             <div>
-              <Image src={twelve} alt="image 13" className="max-h-[500px]" />
+              <Image src={twelve} alt="image" className="max-h-[500px]" />
             </div>
             <div>
-              <Image src={thirteen} alt="image 14" className="max-h-[500px]" />
+              <Image src={thirteen} alt="image" className="max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={god1} alt="image" className=" max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={god2} alt="image" className=" max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={god3} alt="image" className=" max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={god4} alt="image" className="max-h-[500px]" />
+            </div>
+            <div>
+              <Image src={god5} alt="image" className="max-h-[500px]" />
             </div>
           </Carousel>
         </div>
@@ -115,22 +130,22 @@ export default function Home() {
             <div>
               <Image
                 src={god1}
-                alt="image 1"
+                alt="image"
                 priority
                 className=" max-h-[500px] -z-10"
               />
             </div>
             <div>
-              <Image src={god2} alt="image 2" className=" max-h-[500px]" />
+              <Image src={god2} alt="image" className=" max-h-[500px]" />
             </div>
             <div>
-              <Image src={god3} alt="image 3" className=" max-h-[500px]" />
+              <Image src={god3} alt="image" className=" max-h-[500px]" />
             </div>
             <div>
-              <Image src={god4} alt="image 4" className="max-h-[500px]" />
+              <Image src={god4} alt="image" className="max-h-[500px]" />
             </div>
             <div>
-              <Image src={god5} alt="image 5" className="max-h-[500px]" />
+              <Image src={god5} alt="image" className="max-h-[500px]" />
             </div>
           </Carousel>
         </div>
