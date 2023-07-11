@@ -201,11 +201,20 @@ const Navbar = () => {
                 </DropdownMenu.Portal>
               </DropdownMenu.Root>
 
-              <Link href="/donate">
+              <a
+                href="https://www.paypal.com/donate/?hosted_button_id=A6A6YLQCR6K2S"
+                target="_blank"
+              >
+                <button className="hover:bg-[#01AAE5] uppercase bg-white hover:text-white  hover:scale-105 text-[16px] font-OpenSans text-[#012060] p-3 text-center  rounded-full">
+                  Donate
+                </button>
+              </a>
+
+              {/* <Link href="/donate">
                 <div className="hover:bg-[#01AAE5] bg-white hover:text-white  hover:scale-105 text-[16px] font-OpenSans text-[#012060] p-3 text-center  rounded-full">
                   Donate
                 </div>
-              </Link>
+              </Link> */}
             </ul>
 
             {/* mobile button */}
@@ -392,11 +401,20 @@ const Navbar = () => {
             </DropdownMenu.Portal>
           </DropdownMenu.Root>
 
-          <Link href="/donate">
+          <a
+            href="https://www.paypal.com/donate/?hosted_button_id=A6A6YLQCR6K2S"
+            target="_blank"
+          >
+            <button className="hover:bg-[#012060] uppercase my-2 mx-2 mb-3 p-2 hover:text-white  bg-white hover:scale-105 text-[14px] font-OpenSans text-[#012060] text-center  rounded-full w-fit">
+              Donate
+            </button>
+          </a>
+
+          {/* <Link href="/donate">
             <button className="hover:bg-[#012060] my-2 mx-2 mb-3 p-2 hover:text-white  bg-white hover:scale-105 text-[14px] font-OpenSans text-[#012060] text-center  rounded-full w-fit">
               Donate
             </button>
-          </Link>
+          </Link> */}
         </ul>
       </div>
     </nav>
