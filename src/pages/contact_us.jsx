@@ -6,7 +6,7 @@ const contact_us = () => {
   return (
     <>
       <Head>
-        <title>Holy Father St. Augustin - Osaprim</title>
+        <title>Contact US - Osaprim</title>
         <meta
           name="description"
           content="The heart of our vocation is to give ourselves to God through the monastic way of life, being one in mind and heart with our fellow monks, under the care and guidance of an abbot, according to the teachings of St. Augustine of Hippo and the early Augustinian Monks."

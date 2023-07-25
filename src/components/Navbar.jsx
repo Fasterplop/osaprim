@@ -26,6 +26,9 @@ const Navbar = () => {
               <li className="menu_list">
                 <Link href="/becoming_a_monk">Vocation</Link>
               </li>
+              <li className="menu_list">
+                <Link href="/events">Events</Link>
+              </li>
 
               <DropdownMenu.Root>
                 <DropdownMenu.Trigger asChild>
@@ -230,6 +233,10 @@ const Navbar = () => {
 
           <li className="menu_list_phone">
             <Link href="/becoming_a_monk">Vocation</Link>
+          </li>
+
+          <li className="menu_list_phone">
+            <Link href="/events">Events</Link>
           </li>
 
           <DropdownMenu.Root dir="ltr">
