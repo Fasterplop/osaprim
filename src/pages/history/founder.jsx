@@ -18,88 +18,116 @@ const founder = () => {
 
       <Layout>
         <div className="overflow-hidden flex flex-col justify-center items-center px-6 sm:px-16 py-6">
-          <div className="">
-            <Image
-              src={child_jesus}
-              alt="Divine Child Jesus"
-              height={500}
-              className="object-contain "
-              priority
-            />
-          </div>
 
           <div className="max-w-[1080px] text-[14px] sm:text-[16px] text-center leading-8 py-3 font-OpenSans ">
-            <h2 className="  text-[#a06837d9] font-semibold">
-              This image resides in the Monk’s Oratory of Mary our Mother,
-              Undoer of Knots <br />
-              It is an original statue carved in Portugal <br />
-              Intitled: Divine child Jesus, Mirror of our Merciful Father <br />
-              donated by the Aires and Maria Gomes and Maria Oliveira Family.
-            </h2>
+            <h1 className="  text-[#800080] font-semibold">
+            FATHER SEAMUS’S OBITUARY <br />
+            (Composed by his nieces Susanna Kuebler and Caryn Kuebler)
+            </h1>
 
-            <p className="text-justify font-normal indent-6 my-6">
-              You alone do I love, you alone do I follow, and you alone I seek.
-              I am prepared to serve only you, because you alone govern justly,
-              and I wish to be under your rule. I ask that only in your great
-              mercy you convert me wholly to yourself and allow nothing to
-              prevent me from coming to you. Grant that, while I live, I may be
-              temperate, strong, just, and prudent, in love with your wisdom and
-              capable of understanding, worthy of your blessed kingdom, and one
-              day a dweller in that kingdom.
+            <p className="text-justify font-normal indent-6 my-6 text-[#4f42b5] ">
+            Rev. A. Seamus of Jesus Conniff Kuebler, O.S.A. Prim. entered eternal life on April 9,
+2019. Born Charles Anthony Kuebler in Wilkes-Barre, PA on July 1, 1948, he graduated
+from Sacred Heart High Scholl in Plains, PA in 1966. But not before becoming the
+youngest person- at the age of 15- to graduate and receive a guide dog from the Seeing
+Eye in Morristown, NJ. He earned his undergraduate degree in theology from King’s
+College in Wilkes-Barre in 1970 and continued his graduate studies at the Catholic
+University of America in Washington, D. C. before transferring to the University of
+Notre Dame in South Bend, IN, as a seminarian at Moreau Seminary.
             </p>
 
-            <p className="text-justify font-normal indent-6 my-6">
-              At the moment St. Augustine and his close friend Alypius were
-              converted, they resolved to leave all and follow Christ in the
-              monastic life. “Then we went in to my mother and told her, to her
-              great joy. We related how it had come about; she was filled with
-              triumphant exultation, and praised you who are mighty beyond what
-              we ask or conceive…. For you converted me to Yourself so that I no
-              longer sought a wife nor any of this world's promises, but stood
-              upon that same rule of faith in which You had shown me to her so
-              many years before. Thus you changed her mourning into joy, a joy
-              far richer than she had thought to wish, a joy much dearer and
-              purer than she had thought to find in grandchildren of my flesh.”
-              (Confessions, book 8, ch. 12) In fact, learning about the life
-              that St. Antony the Abbot had embraced and how others had adopted
-              his way of life was the catalyst that brought Augustine to the
-              moment of his conversion. As yet there was no developed rule for
-              monks in the west, and so Augustine, Alypius, and others were
-              inspired to embrace monasticism, adapting it to the west. When St.
-              Augustine was chosen to be the successor to the see of Hippo, the
-              venerable Bishop Valerius gave him a garden for his monastery, and
-              even after taking possession of his see Augustine lived as far as
-              possible the monastic vocation. As bishop of Hippo he wrote the
-              rule for monks and later the rule for nuns that have been handed
-              down throughout the ages. His first biographer, Possidius, gives
-              us an insight into the primitive Augustinian monastic life, and we
-              also have the model of the Monastery at Gafsa. Under the guidance
-              of the Abbot Liberatus, the Monastery with its seven monks bore
-              witness to the way of life under the Rule of St. Augustine. These
-              holy monks bore witness to Christ and the monastic life by the
-              shedding of their blood as martyrs in 490 A.D.
+            <p className="text-justify font-normal indent-6 my-6 text-[#4f42b5] ">
+            Father Seamus was called to religious life before losing his sight at a young age. His
+spiritual vision far surpassed any physical limitation, and his determination to serve God
+helped him inspire and guide others, including Pope Paul VI who granted special
+permission for Father Seamus to be ordained to the priesthood on September 27, 1975, in
+Washington, D. C. by the Archbishop, the late William Cardinal Baum, S.T.D.. Father
+Seamus served in the Archdiocese of Washington and in the Diocese of Scranton, PA.
+While in Scranton, he served as a parish minister and a Chaplain at St. Joseph’s Center in
+Scranton- at the time a home for unwed mothers, an adoption agency, and a home for the
+neurologically impaired. During these formative years of his professed service to God,
+Father Seamus, through his inspired storytelling and energetic personality, found unique
+ways to bring people closer to Jesus and make all feel welcome. His devotion to justice
+and mercy inspired many young people around him and in turn brought to the Lord many
+spiritual sons and daughters.
             </p>
 
-            <p className="text-justify font-normal indent-6 my-6">
-              We set before us this primitive observance and embrace as our own
-              the Rule of St. Augustine. Our Father Augustine begins the Holy
-              Rule with the statement, “Above all else, dear brothers, love God
-              and then your neighbor, for the main purpose of our coming
-              together in the monastery is to be one in mind and heart intent
-              upon God.” The heart of our vocation is to give ourselves to God
-              through the monastic way of life, being one in mind and heart with
-              our fellow monks, under the care and guidance of an abbot,
-              according to the teachings of St. Augustine of Hippo and the early
-              Augustinian Monks.
+            <p className="text-justify font-normal indent-6 my-6 text-[#4f42b5] ">
+            In 1988, Father Seamus reaffirmed his calling to God and entered the International
+Augustinian Novitiate, and prepared for the foundation of the Mother of the Good
+Shepherd Monastery. On October 13, 1989, Father Seamus professed his first vows as an
+
+Augustinian Monk of the Primitive Observance, and on August 17, 1996, he professed
+solemn vows. His monastery was established to live the Augustinian monastic life as
+established by the community’s Holy Father St. Augustine of Hippo, and to pray for the
+priest.
             </p>
 
-            <p className="text-justify font-normal indent-6 my-6">
-              Augustinian Monks of the Primitive Observance have
-              <strong> relocated </strong> their monastery on January 3, 2004,
-              from Peaks Island Maine to Glenwood DeLand Florida. The Monks hope
-              you will enjoy their site and come back often. The Brothers pray
-              daily for all who visit their site.
+            <p className="text-justify font-normal indent-6 my-6 text-[#4f42b5] ">
+            As abbot, Father Seamus devoted his life to the monastery and its vocations to give
+oneself to God through monastic life by being one in mind and heart with his fellow
+monks. Father Seamus’s mission, including his steadfast and much-beloved brother in
+prayer for 26 years, Brother Nicholas of the Immaculate Heart, as well as Brothers
+Augustine and Joseph.
             </p>
+
+
+
+            <p className="text-justify font-normal indent-6 my-6 text-[#4f42b5] ">
+            Father Seamus was a man of great playfulness and humor who enjoyed putting on accents
+and inventing characters as part of a rich storytelling tradition. A practical joker, he could
+be seen riding a bicycle or driving a car (to be astonishment of passersby), teaching his
+guide dog to bow before the altar or growl when asked to dance. Father also had a great
+love of music, often writing his own pieces. He was well versed on the piano, organ, and
+guitar, and loved lifting his voice in song. He found great joy in dancing, being by the
+ocean, and of course, storytelling.
+            </p>
+
+            <p className="text-justify font-normal indent-6 my-6 text-[#4f42b5] ">
+            In fact, it is because of his rich life, the ways in which he reached people, and made
+connections everywhere he went that makes it is so difficult to capture his essence and
+the impact he’s had on so many of us in a few short paragraphs. In truth, many of his
+family and friends have worked collectively to provide this brief glimpse into a life only
+he could describe best, with his tremendous capacity to recall not only dates but the
+moments that made those dates so special. Father Seamus was truly larger than life, and
+his playfulness, infectious laughter, and deep devotion to others will be carried on by all
+around him.
+            </p>
+
+            <p className="text-justify font-normal indent-6 my-6 text-[#4f42b5] ">
+            Father Seamus was a shepherd of people and animals alike, who were never far from his
+embrace. As a child, he would baptize his birds, and he developed loving companionships
+with many seeing-eye dogs over the years. Father Seamus leaves behind his playful and
+
+faithful guide dog, a beautiful yellow lab, Fiona; a pack of pugs-Agnes, Martha, Maggie,
+Peter, and Tommy; a distinguished German Shepard, Katie Rose; and the monastery’s
+newest addition, a chihuahua, Aloysius. When times were tough, how often he would say.
+“But thank God for the dogs!” Along with his beloved dogs, Father will also be missed
+by the Monastery’s many farm animals and birds.
+            </p>
+
+
+
+            <p className="text-justify font-normal indent-6 my-6 text-[#4f42b5] ">
+            In addition to his monastic family, Father Seamus is survived by his nieces, Susanna
+Rose Kuebler and husband Oscar Galindo (Arlington VA) and Caryn Elizabeth Kuebler
+(Hyattsville, MD); sisters-in-law, Yvonne “Bonnie” Kuebler (Calgary) and Sue Ellen
+Coleman; step-niece, Heather Klees (William) and their four children, Avery, Natalie,
+Emma, and Alan; several beloved cousins; and a strong church community. Father
+Seamus now rejoins his parents-Elizabeth Frances Conniff and Edward Alfred Kuebler
+and his brother, Edward James Kuebler.
+            </p>
+
+
+            <p className="text-justify font-normal indent-6 my-6 text-[#4f42b5] ">
+            In the spirit of faith and prayer and to honor Father Seamus’s devoted mission, we ask
+that in lieu of flowers, donations be made to the Mother of the Good Shepherd Monastery
+or a service organization of your choice. The family also kindly asks that you consider
+making a donation of blood to your local blood bank in Father Seamus’s memory.
+            </p>
+
+
+            
           </div>
         </div>
       </Layout>
