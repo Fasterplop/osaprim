@@ -52,10 +52,10 @@ export default function Home() {
               />
             </div>
             <div>
-              <Image src={one} alt="image" className=" max-h-[500px]" />
+              <Image src={one} alt="image" className="max-h-[500px]" />
             </div>
             <div>
-              <Image src={two} alt="image" className=" max-h-[500px]" />
+              <Image src={two} alt="image" className="max-h-[500px]" />
             </div>
             <div>
               <Image src={three} alt="image" className="max-h-[500px]" />

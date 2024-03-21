@@ -13,7 +13,8 @@ const Navbar = () => {
 
   return (
     // z-auto to work on mobile
-    <nav className=" uppercase font-bold sticky top-0 z-auto sm:z-50  bg-[#012060] overflow-hidden">
+    // <nav className=" uppercase font-bold sticky top-0 z-auto sm:z-50  bg-[#012060] overflow-hidden"> asi estaba antes
+    <nav className=" uppercase font-bold sticky top-0 z-50  bg-[#012060] overflow-hidden">
       <div className=" max-w-6xl sm:w-[70%] mx-auto ">
         <div className="flex sm:justify-center justify-end ">
           <div className="flex w-full">
@@ -23,6 +24,11 @@ const Navbar = () => {
               <li className="menu_list">
                 <Link href="/">Home</Link>
               </li>
+
+              <li className="menu_list">
+                <Link href="/oblates">Oblates</Link>
+              </li>
+              
               <li className="menu_list">
                 <Link href="/becoming_a_monk">Vocation</Link>
               </li>
@@ -226,6 +232,10 @@ const Navbar = () => {
         <ul className="sm:hidden w-full">
           <li className="menu_list_phone">
             <Link href="/">Home</Link>
+          </li>
+
+          <li className="menu_list_phone">
+            <Link href="/oblates">Oblates</Link>
           </li>
 
           <li className="menu_list_phone">

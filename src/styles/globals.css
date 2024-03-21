@@ -9,7 +9,7 @@ body {
 }
 
 .menu_list {
-  @apply hover:border-2 hover:border-black hover:ring-1 hover:ring-white hover:rounded-md  px-2 bg-[#012060] font-OpenSans py-2 text-[#fff] sm:text-[16px] text-[14px] cursor-pointer;
+  @apply hover:border-2 hover:border-black hover:ring-1 hover:ring-white hover:rounded-md bg-[#012060] font-OpenSans py-2 px-2 text-[#fff] sm:text-[14px] text-[14px] cursor-pointer;
 }
 
 .sub_menu_list {
