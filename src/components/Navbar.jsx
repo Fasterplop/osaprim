@@ -14,9 +14,11 @@ const Navbar = () => {
   return (
     // z-auto to work on mobile
     // <nav className=" uppercase font-bold sticky top-0 z-auto sm:z-50  bg-[#012060] overflow-hidden"> asi estaba antes
+    // max-w-6xl en el primer div 03/26
     <nav className=" uppercase font-bold sticky top-0 z-50  bg-[#012060] overflow-hidden">
-      <div className=" max-w-6xl sm:w-[70%] mx-auto ">
-        <div className="flex sm:justify-center justify-end ">
+      
+      <div className="max-w-7xl sm:w-screen mx-auto ">
+        <div className="flex lg:justify-center justify-end ">
           <div className="flex w-full">
             {/* primary menu */}
 
