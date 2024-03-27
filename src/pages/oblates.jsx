@@ -114,7 +114,7 @@ const oblates = () => {
                   <Image
                     src={item.title}
                     alt={item.id}
-                    className="w-[100%] h-auto sm:w-[300px] sm:h-[200px] hover:bg-gray-400  bg-gray-300 object-contain shadow-xl "
+                    className="w-[100%] h-auto sm:w-[300px] sm:h-[200px] hover:bg-gray-400  bg-gray-300 object-contain shadow-xl"
                   />
                 </div>
               );

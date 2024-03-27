@@ -33,7 +33,7 @@ const Footer = () => {
           <a className="underline text-[#0000EE]" href="tel:3863272772">
             (386) 327-2772{" "}
           </a>
-          <div className="flex flex-row text-[24px] gap-2 my-2  ">
+          <div className="flex flex-row text-[24px] gap-2 my-2 mx-auto sm:mx-0">
             <a target="_blank" href="https://www.facebook.com/OSAPrim">
               <FaFacebook />
             </a>
