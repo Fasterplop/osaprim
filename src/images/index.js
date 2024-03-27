@@ -21,6 +21,11 @@ import god2 from "./god2.jpg";
 import god3 from "./god3.jpg";
 import god4 from "./god4.jpg";
 import god5 from "./god5.jpg";
+import oblates1 from "./oblates1.jpg";
+import oblates2 from "./oblates2.jpg";
+import oblates3 from "./oblates3.jpg";
+import oblates4 from "./oblates4.jpg";
+import oblates5 from "./oblates5.jpg";
 
 export {
   header,
@@ -46,4 +51,10 @@ export {
   god3,
   god4,
   god5,
+  oblates1,
+oblates2,
+oblates3,
+oblates4,
+oblates5,
+
 };

@@ -1,9 +1,27 @@
-import React from "react";
+import React, { useState }  from "react";
 import Head from "next/head";
 import Layout from "@/layouts/Layout";
+import Image from "next/image";
 import { AiOutlineRead } from "react-icons/ai";
+import { AiOutlineCloseCircle } from "react-icons/ai";
+import { galleryImages } from "@/images/gallery";
+import {
+  oblates1,
+  oblates2,
+  oblates3,
+  oblates4,
+  oblates5,
+} from "@/images";
 
-const becoming_a_monk = () => {
+
+const oblates = () => {
+  const [model, setModel] = useState(false);
+  const [tempImgSrc, setTempImgSrc] = useState("");
+
+  const getImg = (title) => {
+    setTempImgSrc(title);
+    setModel(true);
+  };
   return (
     <>
       <Head>
@@ -75,10 +93,71 @@ const becoming_a_monk = () => {
             </a>
             
             </button>
+         
+          </div>
+
+          <div className="max-w-[1480px] mx-auto flex flex-wrap flex-row gap-8 mt-6 justify-center">
+ 
+          <div className={model ? "model open" : "model"}>
+            <Image src={tempImgSrc} />
+            <AiOutlineCloseCircle onClick={() => setModel(false)} />
+          </div>
+
+          <div className="gallery ">
+            {galleryImages.map((item, index) => {
+              return (
+                <div
+                  className="pics"
+                  key={index}
+                  onClick={() => getImg(item.title)}
+                >
+                  <Image
+                    src={item.title}
+                    alt={item.id}
+                    className="w-[100%] h-auto sm:w-[300px] sm:h-[200px] hover:bg-gray-400  bg-gray-300 object-contain shadow-xl "
+                  />
+                </div>
+              );
+            })}
+          </div> 
+
+            {/* <Image
+              src={oblates1}
+              alt="Oblates image"
+              width={300}
+              height={200}
+              className=" cursor-pointer"
+            />
+            <Image
+              src={oblates2}
+              alt="Oblates image"
+              width={300}
+              height={200}
+              className=" cursor-pointer"
+            />
+            <Image
+              src={oblates3}
+              alt="Oblates image"
+              width={300}
+              height={200}
+              className=" cursor-pointer"
+            />
+            <Image
+              src={oblates4}
+              alt="Oblates image"
+              width={300}
+              height={200}
+              className=" cursor-pointer"
+            />
+            <Image
+              src={oblates5}
+              alt="Oblates image"
+              width={300}
+              height={200}
+              className=" cursor-pointer"
+            /> */}
 
           
-           
-         
           </div>
         </div>
       </Layout>
@@ -86,4 +165,4 @@ const becoming_a_monk = () => {
   );
 };
 
-export default becoming_a_monk;
+export default oblates;
